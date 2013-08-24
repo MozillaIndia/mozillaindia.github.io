@@ -8,6 +8,7 @@
         <meta name="description" content="">
 
         <link rel="stylesheet" media="screen,projection,tv" href="css/styles.css" />
+        <link href="css/jquery.bxslider.css" rel="stylesheet" />
 
         <!--[if lte IE 8]>
         <script src="js/libs/html5shiv.js"></script>
@@ -18,7 +19,11 @@
         <script src="js/libs/jquery-1.7.1.min.js"></script>
         <script src="js/libs/modernizr.custom.26887.js"></script>
         <script src="js/base/site.js"></script>
-
+        <script src="js/libs/jquery.bxslider.min.js"></script>
+        <script src="js/base/site.js"></script>
+        <script>$(document).ready(function () {
+            $('.bxslider').bxSlider({maxSlides:1});
+         });</script>
     </head>
 
     <body id="home" class="html-ltr sand">
@@ -52,6 +57,12 @@
                     <div id="about" class="container divider">
                         <h2>About</h2>
                         <p>Mozilla India is a group of enthusiastic volunteers and contributors to Mozilla from India.</p>
+                        <ul class="bxslider">
+                             <li><img src="img/land/promo-beta.jpg" /></li>
+                             <li><img src="img/land/promo-contribute.jpg" /></li>
+                             <li><img src="img/land/promo-mdn.jpg" /></li>
+                             <li><img src="img/land/promo-flicks.jpg" /></li>
+                         </ul>
                     </div>
 
                     <div id="get-involved" class="container divider">
@@ -74,7 +85,7 @@
                         <p>
                 Portions of this content are ©1998–2013 by individual mozilla.org contributors. Content available under a <a href="/en-US/foundation/licensing/website-content/">Creative Commons license</a>.              </p>
                         <p>
-                            <a href="/en-US/contribute/page/">Contribute to this page</a>
+                            <a href="/en-US/contribute/page/">Contribute to this page</a><a href="http://github.com/mozillaindia">&nbsp;On GitHub</a>
                         </p>
                     </div>
                     <ul class="footer-nav">
@@ -97,7 +108,9 @@
         <script src="js/libs/matchMedia.js"></script>
         <![endif]-->
 
+
         <script src="js/base/nav-main-resp.js"></script>
+        <script src="js/mozorg-resp-min.js"></script>
         <script src="js/tabzilla/tabzilla.js"></script>
     </body>
 </html>
