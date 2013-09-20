@@ -8,7 +8,6 @@
 
         <link rel="stylesheet" media="screen,projection,tv" href="css/styles.css" />
         <link href="css/jquery.bxslider.css" rel="stylesheet" />
-        <link href="css/home.css" rel="stylesheet" />
 
         <!--[if lte IE 8]>
         <script src="js/libs/html5shiv.js"></script>
@@ -27,26 +26,16 @@
         <link rel="canonical" href="http://mozillaindia.org/">
         <link rel="shortlink" href="http://mozillaindia.org/">
 
-        <script src="js/libs/jquery-1.7.1.min.js"></script>
+        <script src="js/libs/jquery-2.0.3.min.js"></script>
         <script src="js/libs/modernizr.custom.26887.js"></script>
         <script src="js/base/site.js"></script>
         <script src="js/libs/jquery.bxslider.min.js"></script>
         <script src="js/base/site.js"></script>
-        <script>$(document).ready(function () {
+        <script>
+         $(document).ready(function () {
              $('.bxslider').bxSlider({maxSlides:1, auto: true});
-         });</script>
-        <style>
-         #about-volunteer{list-style-image:url('img/mozdino_b.png');}
-         #about-volunteer:hover{list-style-image:url('img/mozdino_r.png');}
-         #about-work{list-style-image:url('img/star_b.png');}
-         #about-work:hover{list-style-image:url('img/star_r.png');}
-         #about-find{list-style-image:url('img/earth_b.png');}
-         #about-find:hover{list-style-image:url('img/earth_r.png');}
-         #about-join{list-style-image:url('img/heart_b.png');}
-         #about-join:hover{list-style-image:url('img/heart_r.png');}
-         #about-learn{list-style-image:url('img/plus_b.png');}
-         #about-learn:hover{list-style-image:url('img/plus_r.png');}
-        </style>
+         });
+        </script>
     </head>
 
     <body id="home" class="html-ltr sand">
@@ -57,14 +46,13 @@
             <div id="wrapper">
 
                 <header id="masthead">
-                    <a href="http://www.mozilla.org/en-US/" id="tabzilla">Mozilla</a>
+                    <a href="http://www.mozilla.org/" id="tabzilla">Mozilla</a>
 
                     <nav id="nav-main" role="navigation">
                         <span class="toggle" role="button" aria-controls="nav-main-menu" tabindex="0">Menu</span>
                         <ul id="nav-main-menu">
-                            <li class="first"><a href="#about">About</a></li>
-                            <li><a href="#">Mission</a></li>
-                            <li><a href="#get-involved">Get Involved</a></li>
+                            <li class="first"><a href="http://www.mozilla.org/about/">About</a></li>
+                            <li><a href="http://www.mozilla.org/mission/">Mission</a></li>
                             <li><a href="http://blog.mozillaindia.org">Blog</a></li>
                             <li class="last"><a href="http://devs.mozillaindia.org/leaderboard">Leaderboard</a></li>
                         </ul>
@@ -79,8 +67,6 @@
                 <div id="main-content">
 
                     <div id="about" class="container divider">
-                        <h2>About</h2>
-                        <p>Mozilla India is a group of enthusiastic volunteers and contributors to Mozilla from India.</p>
                         <ul class="bxslider">
                             <li><img src="img/promo/promo_1.jpg" /></li>
                             <li><img src="img/promo/promo_2.jpg" /></li>
@@ -88,69 +74,67 @@
                             <li><img src="img/promo/promo_4.jpg" /></li>
                         </ul>
                     </div>
-
-                    <div id="get-involved" class="container divider">
-                        <h2>Get Involved</h2>
-                        <p>Get involved in Mozilla India and contribute today!
-                    </div>
                 </div>
-    <div id="main-content">
-    <section id="home-news">
-    <h3>In the news</h3>
-    <ul>
-      <li>
-        <h4><a href="#">Feed of Blogs comes here</a></h4>
-        <!-- We can just have a feedburner to generate a JS code for pulling latest value from the blogger RSS/ Wordpress RSS and we can display it here. Probably something like the AJAX Google API or feed2js, http://www.google.com/uds/solutions/dynamicfeed/index.html -->
-      </li>
-    </ul>
-    <a href="#" id="all-news">See all news »</a><!-- Blog Link -->
-  </section>
-  
-  <section id="home-promos">
-    <h3>In the know</h3>
-     <ul>
-      <li>
-        <h4><a href="/en-US/firefox/os/">Firefox OS</a></h4>
-        <p>See what’s next for the mobile Web.</p>
-      </li>
-      <li>
-        <h4><a href="https://affiliates.mozilla.org/">Become an Affiliate</a></h4>
-        <p>Help us share Firefox with the world!</p>
-      </li>
-      <li>
-        <h4><a href="/en-US/apps/">Firefox Marketplace</a></h4>
-        <p>Launch your app on the web</p>
-      </li>
-    </ul>
-  </section>
+                <div id="main-content">
+                    <section id="home-news">
+                        <h3>In the news</h3>
+                        <ul>
+                            <li>
+                                <!--<h4><a href="#">Feed of Blogs comes here</a></h4>-->
+                                <!-- We can just have a feedburner to generate a JS code for pulling latest value from the blogger RSS/ Wordpress RSS and we can display it here. Probably something like the AJAX Google API or feed2js, http://www.google.com/uds/solutions/dynamicfeed/index.html -->
+                                <p>Watch out this section for updates.</p>
+                            </li>
+                        </ul>
+                        <a href="http://blog.mozillaindia.org" id="all-news">Read the blog »</a><!-- Blog Link -->
+                    </section>
 
-  <section id="home-about">
-    <h3>Be a part of Mozilla</h3>
-    <ul>
-      <li id="about-volunteer"><a href="/en-US/contribute/">
-        <h4>Volunteer with us</h4>
-        <p>Get involved in any area of the Mozilla&nbsp;Project.</p>
-      </a></li>
-      <li id="about-work"><a href="http://careers.mozilla.org/">
-        <h4>Work with us</h4>
-        <p>Apply today and love the Web for&nbsp;a&nbsp;living.</p>
-      </a></li>
-      <li id="about-find"><a href="/en-US/about/mozilla-spaces/">
-        <h4>Find us</h4>
-        <p>Contact one of our global Mozilla&nbsp;Spaces.</p>
-      </a></li>
-      <li id="about-join"><a href="https://sendto.mozilla.org/Join-Moz-Org">
-        <h4>Donate</h4>
-        <p>Show your support and help us build a&nbsp;better&nbsp;Web.</p>
-      </a></li>
-      <li id="about-learn"><a href="/en-US/about/">
-        <h4>Learn more</h4>
-        <p>Get to know Mozilla a little bit&nbsp;better.</p>
-      </a></li>
-    </ul>
-  </section>
+                    <section id="home-promos">
+                        <h3>Get Involved</h3>
+                        <ul>
+                            <li>
+                                <h4><a href="https://lists.mozilla.org/listinfo/community-india">Mailing List</a></h4>
+                                <p>Connect and interact with local Mozillians.</p>
+                            </li>
+                            <li>
+                                <h4><a href="http://wiki.mozillaindia.org/">Wiki</a></h4>
+                                <p>Share information and read documentation about Mozilla India.</p>
+                            </li>
+                            <li>
+                                <h4><a href="http://devs.mozillaindia.org">Developers</a></h4>
+                                <p>See what's cooking in the code.</p>
+                            </li>
+                        </ul>
+                    </section>
 
-</div>
+                    <section id="home-about">
+                        <h3>Be a part of Mozilla</h3>
+                        <ul>
+                            <li id="about-volunteer"><a href="http://www.mozilla.org/contribute/">
+                                <h4>Volunteer with us</h4>
+                                <p>Get involved in any area of the Mozilla&nbsp;Project.</p>
+                            </a></li>
+                            <!--
+                            <li id="about-work"><a href="http://careers.mozilla.org/">
+                                <h4>Work with us</h4>
+                                <p>Apply today and love the Web for&nbsp;a&nbsp;living.</p>
+                            </a></li>
+                            <li id="about-find"><a href="http://www.mozilla.org/about/mozilla-spaces/">
+                                <h4>Find us</h4>
+                                <p>Contact one of our global Mozilla&nbsp;Spaces.</p>
+                            </a></li>
+                            -->
+                            <li id="about-join"><a href="https://sendto.mozilla.org/Join-Moz-Org">
+                                <h4>Donate</h4>
+                                <p>Show your support and help us build a&nbsp;better&nbsp;Web.</p>
+                            </a></li>
+                            <li id="about-learn"><a href="http://www.mozilla.org/about/">
+                                <h4>Learn more</h4>
+                                <p>Get to know Mozilla a little bit&nbsp;better.</p>
+                            </a></li>
+                        </ul>
+                    </section>
+
+                </div>
 
 
             </div><!-- close #wrapper -->
@@ -159,17 +143,17 @@
                 <div class="row">
 
                     <div class="footer-logo">
-                        <a href="/"><img src="img/sandstone/footer-mozilla.png" alt="mozilla"> India</a>
+                        <a href="/"><img src="img/sandstone/footer-mozilla.png" alt="mozilla"> <span class="footer-logo-india">India</span></a>
+                        <p>Have feedback? <a href="https://github.com/MozillaIndia/MozillaIndia/issues">File a bug</a>.
                     </div>
 
                     <div class="footer-license">
                         <p>
-                            If you have any feedback or find any issue with this website, please <a href="https://github.com/MozillaIndia/MozillaIndia/issues">file a bug report</a> or <a href="https://github.com/MozillaIndia/MozillaIndia">contribute to this website</a>.
                         </p>
                     </div>
                     <ul class="footer-nav">
-                        <li><a href="#about">About Us</a></li>
-                        <li><a href="#get-involved">Get Involved</a></li>
+                        <li><a href="http://www.mozilla.org/about/">About</a></li>
+                        <li><a href="http://www.mozilla.org/mission/">Mission</a></li>
                         <li><a href="http://blog.mozillaindia.org">Blog</a></li>
                         <li><a href="http://devs.mozillaindia.org/leaderboard">Leaderboard</a></li>
                     </ul>
