@@ -1,3 +1,5 @@
+@import "../sandstone/lib.less";
+
 #colophon .footer-logo {
 
     .footer-logo-india {
@@ -25,4 +27,54 @@
         font-size: 0.8em;
     }
 
+}
+
+/* Mobile Layout: 320px */
+@media only screen and (max-width: @breakTablet) {
+
+    #main-feature {
+
+        h1 {
+            width: 100%;
+            font-size: 30px;
+            text-align: center;
+
+            img {
+                display: inline;
+                width: 50%;
+            }
+        }
+
+        h2 {
+            width: 100%;
+            font-size: 20px;
+            letter-spacing: normal;
+            margin-top: 7px;
+        }
+    }
+
+    #main-content {
+
+        #about {
+            margin-bottom: 0;
+            padding-bottom: 0;
+        }
+    }
+
+}
+/* }}} Mobile Layout */
+/* {{{ Tablet  Layout: 768px */
+
+@media only screen and (min-width: @widthTablet) and (max-width: @widthDesktop) {
+
+    #main-feature {
+
+        h1 {
+            font-size: 50px;
+        }
+
+        h2 {
+            font-size: 28px;
+        }
+    }   
 }
