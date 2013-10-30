@@ -719,12 +719,13 @@ nav.menu-bar {
     line-height: 1.285;
     background: #fff;
     width: 100%;
-    margin: 1em 0 0;
+    margin: 1em 0 10em;
 
     .row {
         width: @widthDesktop - (@gridGutterWidth * 2);
         margin: 0 auto;
         .clearfix;
+		padding-bottom:25px;
     }
 
     .footer-logo,
@@ -821,6 +822,7 @@ nav.menu-bar {
     #colophon {
         .row {
             width: @widthTablet - (@gridGutterWidth * 2);
+			
         }
         .footer-logo {
             .span_narrow(4);
@@ -867,6 +869,7 @@ nav.menu-bar {
 
     .row {
         margin-left: auto;
+		padding-bottom:25px;
     }
 
 
@@ -984,16 +987,18 @@ nav.menu-bar {
     #colophon {
         .row {
             width: @widthMobile - @gridGutterWidth;
+			padding-bottom:25px;
         }
         .footer-logo,
         .footer-license,
         .footer-nav {
             width: auto;
             float: none;
+			padding-bottom:25px;
         }
         .footer-logo,
         .footer-license {
-            margin-bottom: @baseLine;
+            margin-bottom: 10px;
         }
     }
 

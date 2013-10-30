@@ -198,12 +198,9 @@ textarea {
 }
 
 .clearfix:after {
-    visibility: hidden; /* undo variables.less clearfix */
-    display: block;
-	font-size: 0;
-	content: " ";
-	clear: both;
-	height: 0;
+    visibility: visible; /* undo variables.less clearfix */
+    height: auto; /* undo variables.less clearfix */
+    clear: both;
 }
 
 /*
