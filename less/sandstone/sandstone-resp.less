@@ -719,7 +719,7 @@ nav.menu-bar {
     line-height: 1.285;
     background: #fff;
     width: 100%;
-    margin: 1em 0 0;
+    margin: 1em 0 10em;
 
     .row {
         width: @widthDesktop - (@gridGutterWidth * 2);
@@ -821,6 +821,8 @@ nav.menu-bar {
     #colophon {
         .row {
             width: @widthTablet - (@gridGutterWidth * 2);
+            padding-bottom: 20em;
+			
         }
         .footer-logo {
             .span_narrow(4);
@@ -867,13 +869,14 @@ nav.menu-bar {
 
     .row {
         margin-left: auto;
+		padding-bottom:25em;
     }
 
 
     #masthead {
         h2 {
             padding-top: @baseLine / 2;
-            padding-bottom: @baseLine / 2;
+            padding-bottom: @baseLine * 2;
         }
 
         nav {
@@ -984,16 +987,18 @@ nav.menu-bar {
     #colophon {
         .row {
             width: @widthMobile - @gridGutterWidth;
+			padding-bottom:25em;
         }
         .footer-logo,
         .footer-license,
         .footer-nav {
             width: auto;
             float: none;
+			padding-bottom:25em;
         }
         .footer-logo,
         .footer-license {
-            margin-bottom: @baseLine;
+            margin-bottom: 10px;
         }
     }
 
@@ -1136,6 +1141,7 @@ nav.menu-bar {
     #colophon {
         .row {
             width: @widthMobileLandscape - @gridGutterWidth;
+            padding-bottom: 20em;
         }
     }
 
