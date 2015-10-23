@@ -10,7 +10,7 @@ Download a copy of MozillaIndia Blog and save the xml to `feeds/feeds.xml`. On
 page load, this file is used to load the feeds. Here is a cURL example of doing this:
 
 ```
-$ curl http://blog.mozillaindia.org/feeds/ --O feeds/feeds.xml
+$ curl http://blog.mozillaindia.org/feed/ --create-dirs -o feeds/feeds.xml
 ```
 
 The `feeds/feeds.xml` file is ignored by Git and will not be added to the repository.
