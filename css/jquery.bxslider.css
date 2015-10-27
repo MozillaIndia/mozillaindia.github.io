@@ -26,6 +26,11 @@
 	display: block;
 }
 
+ul.bxslider li {
+  margin: 0px;
+  padding: 0px;
+}
+
 /** THEME
 ===================================*/
 
