@@ -80,6 +80,16 @@
         color: white;
         display: block;
         margin: auto;
+        font-family: $base-font-family;
+        span {
+          background-color: white;
+          color: #666;
+          color: rgba(0,0,0,0.6);
+          padding: 5px;
+          font-size: 53px;
+          font-weight: 600;
+          letter-spacing: 0.1px;
+        }
     }
 
     .lead {
