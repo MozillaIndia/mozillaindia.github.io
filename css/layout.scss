@@ -306,6 +306,25 @@
     text-align: center;
 }
 
+.join {
+  text-align: center;
+  .area {
+    span.area-title {
+      display: block;
+      margin-bottom: 10px;
+      font-weight: bold;
+    }
+    span.area-text {
+      display: block;
+      margin-bottom: 30px;
+      .icon {
+        max-width: 32px;
+        margin-bottom: 10px;
+      }
+    }
+  }
+}
+
 .home {
     text-align: center;
 
@@ -329,6 +348,10 @@
         span.area-text {
             display: block;
             margin-bottom: 10px;
+
+            .icon {
+              max-width: 18px;
+            }
         }
 
         &.area-small {
