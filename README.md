@@ -1,7 +1,7 @@
 MozillaIndia
 ============
 
-This is the source code for the static landing page of MozillaIndia.org. The website is built using the sandstone theme extracted from Mozilla's Bedrock project.
+This is the source code for the static landing page of [MozillaIndia](http://mozillaindia.github.io/). The website is built using the sandstone theme extracted from Mozilla's Bedrock project.
 
 Downloading feed from MozillaIndia Blog
 =======================================
