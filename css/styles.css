@@ -297,6 +297,9 @@ figure {
 form {
   margin: 0;
 }
+.license{
+  padding-left: 70px;
+}
 /**
  * Define consistent border, margin, and padding.
  */
