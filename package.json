@@ -1,0 +1,9 @@
+{
+  "dependencies": {},
+  "devDependencies": {
+    "bulma": "^0.7.4"
+  },
+  "scripts": {
+    "copy-bulma": "cp node_modules/bulma/css/bulma.min.css css/"
+  }
+}

@@ -4,19 +4,7 @@ You can help by finding out problems on the website (QA), sending suggestions, a
 
 ## Reporting problems or suggestions
 
-Go through [the issues](https://github.com/MozillaIndia/homepage/issues?q=is%3Aissue) and create a new issue if yours is not already added.
-
-## Coding
-
-### Setting up development environment
-
-You will need to have less installed. Do `npm install -g less`.
-To compile the less into css, you'll have to do
-```
-$ lessc less/styles.less css/styles.css
-```
-
-It will be handy to have a simple server installed. [Here is a big list of them](https://gist.github.com/willurd/5720255).
+Go through [the issues](https://github.com/MozillaIndia/mozillaindia.github.io/issues?q=is%3Aissue) and create a new issue if yours is not already added.
 
 ### Git workflow
 
@@ -24,13 +12,13 @@ It will be handy to have a simple server installed. [Here is a big list of them]
 * Clone your forked repo locally.
 
 ```
-$ git clone git@github.com:yourname/homepage.git
+$ git clone git@github.com:yourname/mozillaindia.github.io.git
 ```
 
-* Don't modify or work on the gh-pages branch, we'll use it to always be in sync with the upstream.
+* Don't modify or work on the master branch, we'll use it to always be in sync with the upstream.
 
 ```
-$ git remote add upstream git@github.com:MozillaIndia/homepage.git
+$ git remote add upstream git@github.com:MozillaIndia/mozillaindia.github.io.git
 $ git fetch upstream
 ```
 
@@ -49,7 +37,7 @@ $ git commit -m "Add contribution guidelines. Fix #68"
 $ git push origin add-contribution-guidelines-68
 ```
 
-* Do a new pull request from your "add-contribution-guidelines-68" branch to MozillaIndia/homepage "gh-pages".
+* Do a new pull request from your "add-contribution-guidelines-68" branch to MozillaIndia/mozillaindia.github.io "master".
 
 #### How to implement changes suggested on a pull request
 
@@ -59,7 +47,7 @@ Sometimes when you submit a PR, you will be asked to correct some code. You can 
 
 Once everything is OK, you will be asked to merge all commit messages into one to keep history clean.
 
-``$ git rebase -i gh-pages``
+``$ git rebase -i master``
 
 Edit the file and mark as fixup (f) all commits you want to merge with the first one:
 
@@ -78,15 +66,15 @@ To keep your local master branch updated with upstream, regularly do:
 
 ```
 $ git fetch upstream
-$ git checkout gh-pages
-$ git pull --rebase upstream gh-pages
+$ git checkout master
+$ git pull --rebase upstream master
 ```
 
 To update the branch you are coding in:
 
 ```
 $ git checkout add-contribution-guidelines-68
-$ git rebase gh-pages
+$ git rebase master
 ```
 
 #### Attribution
