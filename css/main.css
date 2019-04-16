@@ -25,3 +25,15 @@ body {
 .iconed-list .icon img#blog-image {
     max-height: 24px;
 }
+.footer {
+    background-color:white;
+    color: black;
+    border-top: white 2px;
+    height: 60px;  /* footer height */
+    padding-top: 20px;
+    display: block;
+    margin-top: 20px; /* space between content and footer */
+    box-sizing: border-box;
+    position: relative;
+    width: 100%;
+}
