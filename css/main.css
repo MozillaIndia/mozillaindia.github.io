@@ -25,3 +25,7 @@ body {
 .iconed-list .icon img#blog-image {
     max-height: 24px;
 }
+
+.footer {
+    margin-top: 20px;
+}
