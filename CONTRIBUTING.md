@@ -6,6 +6,24 @@ You can help by finding out problems on the website (QA), sending suggestions, a
 
 Go through [the issues](https://github.com/MozillaIndia/mozillaindia.github.io/issues?q=is%3Aissue) and create a new issue if yours is not already added.
 
+## Adding code
+
+### Setting up developer tools
+
+The website is just plain HTML, javascript, and CSS (using [bulma](https://bulma.io/) framework). To make simple edits, you can even directly edit on github. But if you would like to set up a local workspace, here is what you should do.
+
+1. Fork and clone the repo as described in git workflow below
+2. Have a server run in the clone repository. Here is a [list of single line servers](https://gist.github.com/willurd/5720255).
+
+**Optionally**, for further convenience as a developer, you can choose to setup the following:
+* [yarn](https://yarnpkg.com/) for package management. ([npm](https://www.npmjs.com/) might work as well, but not been tested and not recommended in order to avoid conflict with yarn.lock)
+* `yarn install` to have all the developer dependencies be installed
+* This gives you access to the following scripts
+  * `yarn run copy-bulma`: copies the bulma css from npm package installed into node_modules
+  * `yarn run html-lint`: checks the html for errors
+  * `yarn run http-server`: runs a server listening at localhost:8080
+
+
 ### Git workflow
 
 * Fork this repo using the button at the top.

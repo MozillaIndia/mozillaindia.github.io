@@ -1,9 +1,13 @@
 {
   "dependencies": {},
   "devDependencies": {
-    "bulma": "^0.7.4"
+    "bulma": "^0.7.4",
+    "htmlhint": "^0.11.0",
+    "http-server": "^0.11.1"
   },
   "scripts": {
-    "copy-bulma": "cp node_modules/bulma/css/bulma.min.css css/"
+    "copy-bulma": "cp node_modules/bulma/css/bulma.min.css css/",
+    "html-lint": "./node_modules/.bin/htmlhint **/*.html",
+	"http-server": "./node_modules/.bin/http-server"
   }
 }
