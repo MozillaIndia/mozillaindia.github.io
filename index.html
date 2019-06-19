@@ -1,218 +1,342 @@
-<!doctype html>
-<html class="windows no-js" lang="en-US" dir="ltr">
+<!DOCTYPE html>
+<html lang="en">
     <head>
         <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
         <title>Mozilla India</title>
-
-        <link rel="stylesheet" media="screen,projection,tv" href="css/styles.css" />
-        <link href="css/jquery.bxslider.css" rel="stylesheet" />
-		
-	<!--Tabzilla stylesheet-->
-        <link href="http://mozorg.cdn.mozilla.net/media/css/tabzilla-min.css" rel="stylesheet" />
-		
-
-        <!--[if lte IE 8]>
-        <script src="js/libs/html5shiv.js"></script>
-        <![endif]-->
+        <meta name="description" content="Mozilla India community homepage">
+        <meta name="og:image" content="img/favicon.ico"/>
 
         <link rel="shortcut icon" href="img/favicon.ico">
-
-        <meta name="description" content="Mozilla India is part of the global community of Mozilla Foundation, founded to manifest the state of Mozilla community in India. Internet By The People Internet ...">
-        <meta name="keywords" content="mozilla, mozillaindia, firefox, india, open source, community, l10n, open, foss, floss, software">
-
-        <meta property="og:site_name" content="Mozilla India">
-        <meta property="og:url" content="http://mozillaindia.org/">
-        <meta property="og:title" content="Mozilla India">
-        <meta property="og:type" content="website">
-
-        <link rel="canonical" href="http://mozillaindia.org/">
-        <link rel="shortlink" href="http://mozillaindia.org/">
-
-        <script src="js/libs/jquery-2.0.3.min.js"></script>
-        <script src="js/libs/modernizr.custom.26887.js"></script>
-        <script src="js/base/site.js"></script>
-        <script src="js/libs/jquery.bxslider.min.js"></script>
-		
-	<!-- Remote -->
-	<script src="http://www.mozilla.org/tabzilla/media/js/tabzilla.js"></script>
-		
-        <script>
-         $(document).ready(function () {
-             $('.bxslider').bxSlider({maxSlides:1, auto: true});
-         });
-        </script>
+        <link rel="stylesheet" href="https://code.cdn.mozilla.net/fonts/zilla-slab.css">
+        <link rel="stylesheet" href="https://code.cdn.mozilla.net/fonts/fira.css">
+        <link rel="stylesheet" href="css/bulma.min.css">
+        <link rel="stylesheet" href="css/main.css">
+        <link rel="canonical" href="https://mozillaindia.org">
     </head>
-
-    <body id="home" class="html-ltr sand">
-        <div id="strings"   data-close='Close'
-             data-share='Share'
-             ></div>
-        <div id="outer-wrapper">
-            <div id="wrapper">
-
-                <header id="masthead">
-                    <a href="http://www.mozilla.org/" id="tabzilla">Mozilla</a>
-
-                    <nav id="nav-main" role="navigation">
-                        <span class="toggle" role="button" aria-controls="nav-main-menu" tabindex="0">Menu</span>
-                        <ul id="nav-main-menu">
-                            <li class="first"><a href="http://www.mozilla.org/about/">About</a></li>
-                            <li><a href="http://www.mozilla.org/mission/">Mission</a></li>
-                            <li><a href="http://blog.mozillaindia.org">Blog</a></li>
-                            <li><a href="https://www.mozilla.org/firefox/os">Firefox OS</a></li>
-                            <li><a href="http://wiki.mozillaindia.org">Wiki</a></li>
-                            <li><a href="http://hive.mozillaindia.org">Hive</a></li>
-                            <li class="last"><a href="http://devs.mozillaindia.org/leaderboard">Leaderboard</a></li>
-                        </ul>
-                    </nav>
-                </header>
-
-                <hgroup id="main-feature" class="huge">
-                    <h1><img src="img/home/title-wordmark.png" alt="Mozilla" height="92" width="348"> India</h1>
-                    <h2>Unity in the midst of diversity</h2>
-                </hgroup>
-
-                <!-- bxslider -->
-                <div class="container divider">
-                    <ul class="bxslider">
-                        <li><img src="img/promo/promo_1.jpg" /></li>
-                        <li><img src="img/promo/promo_2.jpg" /></li>
-                        <li><img src="img/promo/promo_3.jpg" /></li>
-                        <li><img src="img/promo/promo_4.jpg" /></li>
-                    </ul>
-                </div>
-
-                <div id="download">
-                    <a href="https://www.mozilla.org/firefox/all/" target="_blank">
-                        Firefox for Desktop
-                        <small>Download in your language</small>
-                    </a><img
-                        class="logo"
-                        src="https://mozorg.cdn.mozilla.net/media/img/styleguide/identity/firefox/usage-logo.png"
-                    /><a href="https://www.mozilla.org/firefox/android/" target="_blank">
-                        Firefox for Android
-                        <small>Download in your language</small>
+    <body>
+        <nav class="navbar" role="navigation" aria-label="main navigation">
+            <div class="navbar-brand">
+                <a class="navbar-item" href="https://mozillaindia.org">
+                    <img src="/img/mozilla-wordmark.svg" width="112" height="32" alt="Mozilla India"><span id="mozilla-india-wordmark"> india &nbsp;</span>
+                </a>
+                <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+                    <span aria-hidden="true"></span>
+                    <span aria-hidden="true"></span>
+                    <span aria-hidden="true"></span>
+                </a>
+            </div>
+            <div id="navbarBasicExample" class="navbar-menu">
+                <div class="navbar-start">
+                    <a class="navbar-item" href="https://blog.mozillaindia.org">
+                        Blog
+                    </a>
+                    <a class="navbar-item" href="https://foundation.mozilla.org">
+                        Foundation
+                    </a>
+                    <a class="navbar-item" href="https://mozilla.org">
+                        Global
+                    </a>
+                    <a class="navbar-item" href=" https://activate.mozilla.community/">
+                        Activate
                     </a>
                 </div>
-
-                <div id="main-content">
-                    <section id="home-news">
-                        <h3>In the news</h3>
-                        <ul id="blog-ul">
-                            <li>
-                                <!--<h4><a href="#">Feed of Blogs comes here</a></h4>-->
-                                <!-- We can just have a feedburner to generate a JS code for pulling latest value from the blogger RSS/ Wordpress RSS and we can display it here. Probably something like the AJAX Google API or feed2js, http://www.google.com/uds/solutions/dynamicfeed/index.html -->
-                                <p>Watch out this section for updates.</p>
-                            </li>
-                        </ul>
-                        <a href="http://blog.mozillaindia.org" id="all-news">Read the blog »</a><!-- Blog Link -->
-                    </section>
-
-                    <section id="home-promos">
-                        <h3>Get Involved</h3>
-                        <ul>
-                            <li>
-                                <h4><a href="https://lists.mozilla.org/listinfo/community-india">Mailing List</a></h4>
-                                <p>Connect and interact with local Mozillians.</p>
-                            </li>
-                            <li>
-                                <h4><a href="http://wiki.mozillaindia.org/Main_page">Wiki</a></h4>
-                                <p>Share information and read documentation about Mozilla India.</p>
-                            </li>
-                            <li>
-                                <h4><a href="http://devs.mozillaindia.org">Developers</a></h4>
-                                <p>See what's cooking in the code.</p>
-                            </li>
-                        </ul>
-                    </section>
-
-                    <section id="home-about">
-                        <h3>Be a part of Mozilla</h3>
-                        <ul>
-                            <li id="about-volunteer"><a href="http://www.mozilla.org/contribute/">
-                                <h4>Volunteer with us</h4>
-                                <p>Get involved in any area of the Mozilla&nbsp;Project.</p>
-                            </a></li>
-                            <!--
-                            <li id="about-work"><a href="http://careers.mozilla.org/">
-                            <h4>Work with us</h4>
-                            <p>Apply today and love the Web for&nbsp;a&nbsp;living.</p>
-                            </a></li>
-                            <li id="about-find"><a href="http://www.mozilla.org/about/mozilla-spaces/">
-                            <h4>Find us</h4>
-                            <p>Contact one of our global Mozilla&nbsp;Spaces.</p>
-                            </a></li>
-                            -->
-                            <li id="about-join"><a href="https://sendto.mozilla.org/Join-Moz-Org">
-                                <h4>Donate</h4>
-                                <p>Show your support and help us build a&nbsp;better&nbsp;Web.</p>
-                            </a></li>
-                            <li id="about-learn"><a href="http://www.mozilla.org/about/">
-                                <h4>Learn more</h4>
-                                <p>Get to know Mozilla a little bit&nbsp;better.</p>
-                            </a></li>
-                        </ul>
-                    </section>
-
-                </div>
-
-
-            </div><!-- close #wrapper -->
-
-            <footer id="colophon" class="">
-                <div class="row">
-
-                    <div class="footer-logo">
-                        <a href="/"><img src="img/sandstone/footer-mozilla.png" alt="mozilla"> <span class="footer-logo-india">India</span></a>
-                        <p>Have feedback? <a href="https://github.com/MozillaIndia/homepage/issues">File a bug</a>.
+            </div>
+        </nav>
+        <section class="section">
+            <div class="container has-text-centered">
+                <h1 class="title">
+                    Mozilla India
+                </h1>
+                <p class="subtitle">Home to the largest Mozilla community</p>
+            </div>
+        </section>
+        <section class="section">
+            <div class="container">
+                <div class="notification is-link has-text-centered">We’re building a better Internet</div>
+                <div class="tile is-ancestor is-vertical">
+                    <div class="tile is-parent">
+                        <div class="tile is-child box">
+                            <p class="title">Mission</p>
+                            <p class="subtitle">Our mission is to ensure the Internet is a global public resource, open and accessible to all. An Internet that truly puts people first, where individuals can shape their own experience and are empowered, safe and independent.</p>
+                            <p>At Mozilla, we’re a global community of technologists, thinkers and builders working together to keep the Internet alive and accessible, so people worldwide can be informed contributors and creators of the Web. We believe this act of human collaboration across an open platform is essential to individual growth and our collective future.</p><br>
+                            <p>Read the <a href="https://mozilla.org/about/manifesto/">Mozilla Manifesto</a> to learn even more about the values and principles that guide the pursuit of our mission.</p>
+                        </div>
                     </div>
-
-                    <div class="footer-license">
-                        <p>
-                        </p>
-                    </div>
-                    <ul class="footer-nav">
-                        <li><a href="http://www.mozilla.org/about/">About</a></li>
-                        <li><a href="http://www.mozilla.org/mission/">Mission</a></li>
-                        <li><a href="http://blog.mozillaindia.org">Blog</a></li>
-                        <li><a href="http://wiki.mozillaindia.org">Wiki</a></li>
-                        <li><a href="http://devs.mozillaindia.org/leaderboard">Leaderboard</a></li>
-			<li><a href="http://bugz.mozillaindia.org">Bugzilla</a></li>
-                    </ul>
-                    <ul class="footer-nav">
-                        <li><a href="http://twitter.com/MozillaIN">Twitter</a></li>
-                        <li><a href="http://www.facebook.com/mozillaindia">Facebook</a></li>
-                        <li><a href="http://flickr.com/photos/mozillaindia/">Flickr</a></li>
-                        <li><a href="http://youtube.com/user/MozillaIndia">Youtube</a></li>
-                        <li><a href="https://plus.google.com/103052563100386898416" rel="publisher">Google+</a></li> 
-                    </ul>
-
                 </div>
-            </footer>
-
-        </div><!-- close #outer-wrapper -->
-
-        <!--[if IE 9]>
-        <script src="js/libs/matchMedia.js"></script>
-        <![endif]-->
-
-
-        <script src="js/base/nav-main-resp.js"></script>
-        <script src="js/mozorg-resp-min.js"></script>
-		
-        <script>
-         window.scrollback = {
-             streams: ['mozilla-india'],
-             theme:   'light',
-             ticker:  true,
-             minimize: true
-         };
-         // Don't change below this line ------------------------------------------------
-         (function(d,h,e){e=d.createElement('script');e.async=1;e.src=h+'/client.min.js';
-                          scrollback.host=h;d.body.appendChild(e);}(document,'http://scrollback.io'));
-        </script>
-        <script src="js/mozin/feedreader.js"></script>
+                <div class="tile is-ancestor">
+                    <div class="tile is-parent">
+                        <div class="tile is-child box">
+                            <p class="title">Communication channels</p>
+                            <ul class="iconed-list">
+                                <li>
+                                    <span class="icon">
+                                        <img src="img/discourse.png" alt="Discourse Icon" />
+                                    </span>
+                                    <a href="https://discourse.mozilla.org/c/india">Discourse</a> - for important topics
+                                </li>
+                                <li>
+                                    <span class="icon">
+                                        <img src="img/mail.jpg" alt="Mail Icon" />
+                                    </span>
+                                    <a href="https://lists.mozilla.org/listinfo/community-india">Mailing List</a> - for restricted visibility
+                                </li>
+                                <li>
+                                    <span class="icon">
+                                        <img src="img/icon-telegram.svg" alt="Telegram Icon" />
+                                    </span>
+                                    <a href="https://t.me/MozillaIN">Telegram</a> - for instant messaging
+                                </li>
+                                <li>
+                                    <span class="icon">
+                                        <img src="img/icon-riot.svg" alt="Matrix Icon" />
+                                    </span>
+                                    <a href="https://matrix.to/#/!OkcrSgHxzzzLELqtai:matrix.org">Matrix</a> - for instant messaging
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="tile is-parent">
+                        <div class="tile is-child box">
+                            <p class="title">Social Media</p>
+                            <ul class="iconed-list">
+                                <li>
+                                    <span class="icon" style="background: #1da1f2;">
+                                        <img src="img/twitter.png" alt="Twitter Icon">
+                                    </span>
+                                    <a href="https://twitter.com/MozillaIN">@MozillaIN</a>
+                                </li>
+                                <li>
+                                    <span class="icon" style="background: #1da1f2;">
+                                        <img src="img/facebook.png" alt="Facebook Icon">
+                                    </span>
+                                    <a href="https://facebook.com/mozillaindia">mozillaindia</a>
+                                </li>
+                                <li>
+                                    <span class="icon">
+                                        <img src="img/icon-teach.svg" id="blog-image" alt="Blog Icon">
+                                    </span>
+                                    <a href="https://blog.mozillaindia.org">blog</a>
+                                </li>
+                                <li>
+                                    <span class="icon">
+                                        <img src="img/instagram.png" alt="Instagram Icon">
+                                    </span>
+                                    <a href="https://www.instagram.com/mozillain/">mozillaindia</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="tile is-ancestor is-vertical">
+                    <div class="tile is-parent">
+                        <div class="tile is-child box">
+                            <p class="title has-text-centered">How do I contribute?</p>
+                            <p class="subtitle has-text-centered">There is no single answer. But read on to learn about multiple ways to be a part of a vibrant community of lovers of the open web.</p>
+                            <p>The first step towards being a Mozillian and contributing to Mozilla is to know what Mozilla is. You have already read our mission above. Make sure you read the <a href="https://mozilla.org/about/manifesto/">manifesto</a> as well. Mozillians live by our manifesto.</p>
+                            <br>
+                            <p>If all this sounds interesting to you, and you want to call yourself a Mozillian, sign up on the <a href="https://mozillians.org">mozillians</a> website and create your mozillians profile.</p>
+                            <br>
+                            <p>Now you may want to find other contributors near you to work together. You can attend an <a href="https://www.mozilla.org/contribute/events/">upcoming event</a>, join our communication channels, follow our social media accounts, and join many of the various sub-communities which are listed below according to your interesting</p>
+                            <br>
+                            <p>Find impactful and easy ways to contribute to Mozilla in the <a href="https://activate.mozilla.community/">Activate Mozilla</a> community website.</p>
+                            <br>
+                            <p>Would you rather just sit at a convenient place, read resources, and figure out on your own which projects to contribute to and how? Visit <a href="https://wiki.mozilla.org/Contribute"> Contribute Wiki</a> and <a href="https://whatcanidoformozilla.org/">What Can I Do For Mozilla</a>. Multiple projects are listed down at these places where you can start contributing straightaway.</p>
+                            <br>
+                            <p>If at any moment you find yourself stuck and unable to move forward, drop a message in any one of our communication channels and someone will surely reply. We are a bunch of friendly folks who are mindful of being inclusive in our communications and we are bound to <a href="https://www.mozilla.org/about/governance/policies/participation/">our community participation guidelines</a> which ensures that you will be treated respectfully, no matter who you are.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="tile is-ancestor is-vertical">
+                    <div class="tile is-parent">
+                        <div class="tile is-child box">
+                            <div class="tile is-ancestor is-vertical">
+                                <div class="tile is-parent">
+                                    <p class="title">Regional groups</p>
+                                </div>
+                                <div class="tile">
+                                    <div class="tile is-parent">
+                                        <div class="tile is-child box">
+                                            <p class="subtitle">Mozilla Delhi</p>
+                                            <a href="https://t.me/mozilladelhi">Telegram</a>
+                                            <a href="https://twitter.com/mozilladelhincr">Twitter</a>
+                                        </div>
+                                    </div>
+                                    <div class="tile is-parent">
+                                        <div class="tile is-child box">
+                                            <p class="subtitle">Mozilla Gujarat</p>
+                                            <a href="http://mozillagujarat.org">Website</a>
+                                            <a href="https://t.me/joinchat/CpXrs0J9FOfBVAB4TTEzAw">Telegram</a>
+                                            <a href="https://github.com/mozguj">GitHub</a>
+                                            <a href="https://twitter.com/mozguj">Twitter</a>
+                                            <a href="https://www.instagram.com/mozguj/">Instagram</a>
+                                        </div>
+                                    </div>
+                                    <div class="tile is-parent">
+                                        <div class="tile is-child box">
+                                            <p class="subtitle">Mozilla Hyderabad</p>
+                                            <a href="https://t.me/MozHyderabad">Telegram</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="tile">
+                                    <div class="tile is-parent">
+                                        <div class="tile is-child box">
+                                            <p class="subtitle">Mozilla Karnataka (BLR)</p>
+                                            <a href="https://t.me/joinchat/AFfAPD1xS9_WEiXjDfkYGA">Telegram</a>
+                                            <a href="https://twitter.com/MozKarnataka">Twitter</a>
+                                            <a href="https://www.meetup.com/mozilla_bangalore/">Meetup</a>
+                                        </div>
+                                    </div>
+                                    <div class="tile is-parent">
+                                        <div class="tile is-child box">
+                                            <p class="subtitle">Mozilla Kerala</p>
+                                            <a href="https://mozillakerala.com/">Website</a>
+                                            <a href="https://t.me/mozilla_kerala">Telegram</a>
+                                            <a href="https://github.com/MozillaKerala">GitHub</a>
+                                            <a href="https://twitter.com/MozillaKerala">Twitter</a>
+                                            <a href="https://www.instagram.com/mozillakerala/">Instagram</a>
+                                        </div>
+                                    </div>
+                                    <div class="tile is-parent">
+                                        <div class="tile is-child box">
+                                            <p class="subtitle">Mozilla Nashik</p>
+                                            <a href="https://t.me/MozillaNashik">Telegram</a>
+                                            <a href="https://twitter.com/mozillanashik">Twitter</a>
+                                            <a href="https://www.instagram.com/mozillanashik/">Instagram</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="tile">
+                                    <div class="tile is-parent">
+                                        <div class="tile is-child box">
+                                            <p class="subtitle">Mozilla Pune</p>
+                                            <a href="https://t.me/joinchat/AAAAAD7Sg38JxPvt489eoA">Telegram</a>
+                                            <a href="https://www.facebook.com/mozPune/">Facebook</a>
+                                            <a href="https://twitter.com/mozpune">Twitter</a>
+                                            <a href="https://www.meetup.com/Pune-Mozilla-Meetup/">Meetup</a>
+                                        </div>
+                                    </div>
+                                    <div class="tile is-parent">
+                                        <div class="tile is-child box">
+                                            <p class="subtitle">Mozilla Punjab</p>
+                                            <a href="https://www.meetup.com/MozillaPunjab/">Website</a>
+                                            <a href="https://t.me/mozillapunjab">Telegram</a>
+                                            <a href="https://github.com/MozillaPunjab">GitHub</a>
+                                            <a href="https://twitter.com/MozPunjab">Twitter</a>
+                                            <a href="https://www.facebook.com/MozillaPunjab">Facebook</a>
+                                        </div>
+                                    </div>
+                                    <div class="tile is-parent">
+                                        <div class="tile is-child box">
+                                            <p class="subtitle">Mozilla Tamil Nadu</p>
+                                            <a href="https://t.me/mozillatnc">Telegram</a>
+                                            <a href="https://github.com/MozillaTN">GitHub</a>
+                                            <a href="https://twitter.com/mozillaTN">Twitter</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tile is-ancestor">
+                    <div class="tile is-parent">
+                        <div class="tile is-child box">
+                            <div class="tile is-ancestor is-vertical">
+                                <div class="tile is-parent">
+                                    <p class="title">Functional groups</p>
+                                </div>
+                                <div class="tile">
+                                    <div class="tile is-parent">
+                                        <div class="tile is-child box">
+                                            <p class="subtitle">Hindi Localization Group</p>
+                                            <a href="https://t.me/joinchat/CEMWVhH5ueW0zSAqfma6lA">Telegram</a>
+                                        </div>
+                                    </div>
+                                    <div class="tile is-parent">
+                                        <div class="tile is-child box">
+                                            <p class="subtitle">Malayalam Localization Group</p>
+                                            <a href="https://t.me/firefoxsmc">Telegram</a>
+                                        </div>
+                                    </div>
+                                    <div class="tile is-parent">
+                                        <div class="tile is-child box">
+                                            <p class="subtitle">Mozilla Open Design</p>
+                                            <a href="https://github.com/mozilla/OpenDesign/">GitHub</a>
+                                            <a href="https://t.me/opendesign">Telegram</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tile is-ancestor">
+                    <div class="tile is-parent">
+                        <div class="tile is-child box">
+                            <div class="tile is-ancestor is-vertical">
+                                <div class="tile is-parent is-vertical">
+                                    <p class="title">Campus Clubs</p>
+                                    A Mozilla University &amp; College Club is a group of students with a passion for technology who meet regularly to advance this mission by building and innovating on open source projects that keep the web open.To learn more about Campus Clubs, you can visit the <a href="https://campus.mozilla.community/">Mozilla Campus Club Website</a>
+                                </div>
+                                <div class="tile">
+                                    <div class="tile is-parent">
+                                        <div class="tile is-child box">
+                                            <p class="subtitle">Mozilla Campus Club BVUCOE, Pune</p>
+                                            <a href="https://www.facebook.com/mozilacampusclubbvucoep/">Facebook</a>
+                                        </div>
+                                    </div>
+                                    <div class="tile is-parent">
+                                        <div class="tile is-child box">
+                                            <p class="subtitle">FOSSers VAST, Kerala</p>
+                                            <a href="http://fossers.vidyaacademy.ac.in">Website</a>
+                                        </div>
+                                    </div>
+                                    <div class="tile is-parent">
+                                        <div class="tile is-child box">
+                                            <p class="subtitle">GLUG MVIT, Bangalore</p>
+                                            <a href="https://blog.glugmvit.com/">Website</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="tile">
+                                    <div class="tile is-parent">
+                                        <div class="tile is-child box">
+                                            <p class="subtitle">Mozilla Campus Club MACE, Kerala</p>
+                                            <a href="https://www.instagram.com/mozillamace/">Instagram</a>
+                                        </div>
+                                    </div>
+                                    <div class="tile is-parent">
+                                        <div class="tile is-child box">
+                                            <p class="subtitle">Mozilla Campus Club NUV, Vadodara</p>
+                                            <a href="https://www.instagram.com/cybersocietynuv/">Instagram</a>
+                                        </div>
+                                    </div>
+                                    <div class="tile is-parent">
+                                        <div class="tile is-child box">
+                                            <p class="subtitle">Mozilla Campus Club SJCET, Kerala</p>
+                                            <a href="https://www.instagram.com/mozilla.sjcet/">Instagram</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer class="footer">
+            <div class="content has-text-centered">
+                <p>
+                    <strong>Mozilla India</strong> homepage. The source code is licensed
+                    <a href="https://www.mozilla.org/en-US/MPL/" style="color:#3F51B5">MPL</a>. The website content is licensed <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/" style="color:#3F51B5">CC BY NC SA 4.0</a>.
+                </p>
+                <p>Found a bug? <a href="http://github.com/mozillaindia/mozillaindia.github.io" style="color:#3F51B5">Report it or fix it</a></p>
+            </div>
+        </footer>
+        <script src="/js/main.js" type="text/javascript"></script>
     </body>
 </html>

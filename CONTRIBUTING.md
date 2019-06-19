@@ -4,19 +4,25 @@ You can help by finding out problems on the website (QA), sending suggestions, a
 
 ## Reporting problems or suggestions
 
-Go through [the issues](https://github.com/MozillaIndia/homepage/issues?q=is%3Aissue) and create a new issue if yours is not already added.
+Go through [the issues](https://github.com/MozillaIndia/mozillaindia.github.io/issues?q=is%3Aissue) and create a new issue if yours is not already added.
 
-## Coding
+## Adding code
 
-### Setting up development environment
+### Setting up developer tools
 
-You will need to have less installed. Do `npm install -g less`.
-To compile the less into css, you'll have to do
-```
-$ lessc less/styles.less css/styles.css
-```
+The website is just plain HTML, javascript, and CSS (using [bulma](https://bulma.io/) framework). To make simple edits, you can even directly edit on github. But if you would like to set up a local workspace, here is what you should do.
 
-It will be handy to have a simple server installed. [Here is a big list of them](https://gist.github.com/willurd/5720255).
+1. Fork and clone the repo as described in git workflow below
+2. Have a server run in the clone repository. Here is a [list of single line servers](https://gist.github.com/willurd/5720255).
+
+**Optionally**, for further convenience as a developer, you can choose to setup the following:
+* [yarn](https://yarnpkg.com/) for package management. ([npm](https://www.npmjs.com/) might work as well, but not been tested and not recommended in order to avoid conflict with yarn.lock)
+* `yarn install` to have all the developer dependencies be installed
+* This gives you access to the following scripts
+  * `yarn run copy-bulma`: copies the bulma css from npm package installed into node_modules
+  * `yarn run html-lint`: checks the html for errors
+  * `yarn run http-server`: runs a server listening at localhost:8080
+
 
 ### Git workflow
 
@@ -24,13 +30,13 @@ It will be handy to have a simple server installed. [Here is a big list of them]
 * Clone your forked repo locally.
 
 ```
-$ git clone git@github.com:yourname/homepage.git
+$ git clone git@github.com:yourname/mozillaindia.github.io.git
 ```
 
-* Don't modify or work on the gh-pages branch, we'll use it to always be in sync with the upstream.
+* Don't modify or work on the master branch, we'll use it to always be in sync with the upstream.
 
 ```
-$ git remote add upstream git@github.com:MozillaIndia/homepage.git
+$ git remote add upstream git@github.com:MozillaIndia/mozillaindia.github.io.git
 $ git fetch upstream
 ```
 
@@ -49,7 +55,7 @@ $ git commit -m "Add contribution guidelines. Fix #68"
 $ git push origin add-contribution-guidelines-68
 ```
 
-* Do a new pull request from your "add-contribution-guidelines-68" branch to MozillaIndia/homepage "gh-pages".
+* Do a new pull request from your "add-contribution-guidelines-68" branch to MozillaIndia/mozillaindia.github.io "master".
 
 #### How to implement changes suggested on a pull request
 
@@ -59,7 +65,7 @@ Sometimes when you submit a PR, you will be asked to correct some code. You can 
 
 Once everything is OK, you will be asked to merge all commit messages into one to keep history clean.
 
-``$ git rebase -i gh-pages``
+``$ git rebase -i master``
 
 Edit the file and mark as fixup (f) all commits you want to merge with the first one:
 
@@ -78,15 +84,15 @@ To keep your local master branch updated with upstream, regularly do:
 
 ```
 $ git fetch upstream
-$ git checkout gh-pages
-$ git pull --rebase upstream gh-pages
+$ git checkout master
+$ git pull --rebase upstream master
 ```
 
 To update the branch you are coding in:
 
 ```
 $ git checkout add-contribution-guidelines-68
-$ git rebase gh-pages
+$ git rebase master
 ```
 
 #### Attribution
