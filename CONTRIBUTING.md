@@ -23,6 +23,10 @@ The website is just plain HTML, javascript, and CSS (using [bulma](https://bulma
   * `yarn run html-lint`: checks the html for errors
   * `yarn run http-server`: runs a server listening at localhost:8080
 
+## Use with docker
+Run the below command in the git repository to serve the website at localhost
+
+``` docker-compose up ```
 
 ### Git workflow
 
