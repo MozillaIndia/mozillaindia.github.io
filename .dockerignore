@@ -1,0 +1,18 @@
+# Project related files
+CODE_OF_CONDUCT.md	
+CONTRIBUTING.md					
+ISSUE_TEMPLATE.md
+README.md
+PULL_REQUEST_TEMPLATE.md
+LICENSE
+
+# Docker related files
+Dockerfile
+.dockerignore
+
+# VCS related files 
+.gitignore
+.git
+
+# node_modules
+node_modules
