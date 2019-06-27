@@ -16,6 +16,7 @@ The website is just plain HTML, javascript, and CSS (using [bulma](https://bulma
 2. Have a server run in the clone repository. Here is a [list of single line servers](https://gist.github.com/willurd/5720255).
 
 **Optionally**, for further convenience as a developer, you can choose to setup the following:
+
 * [yarn](https://yarnpkg.com/) for package management. ([npm](https://www.npmjs.com/) might work as well, but not been tested and not recommended in order to avoid conflict with yarn.lock)
 * `yarn install` to have all the developer dependencies be installed
 * This gives you access to the following scripts
@@ -23,7 +24,8 @@ The website is just plain HTML, javascript, and CSS (using [bulma](https://bulma
   * `yarn run html-lint`: checks the html for errors
   * `yarn run http-server`: runs a server listening at localhost:8080
 
-## Use with docker
+### Use with docker (optional)
+
 Run the below command in the git repository to serve the website at localhost
 
 ``` docker-compose up ```
@@ -100,4 +102,5 @@ $ git rebase master
 ```
 
 #### Attribution
+
 This file is derived from work by @zhukov [here](https://github.com/zhukov/webogram/blob/master/CONTRIBUTING.md).
