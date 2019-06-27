@@ -1,9 +1,6 @@
 # Project related files
-CODE_OF_CONDUCT.md	
-CONTRIBUTING.md					
-ISSUE_TEMPLATE.md
-README.md
-PULL_REQUEST_TEMPLATE.md
+.github
+*.md
 LICENSE
 
 # Docker related files
@@ -14,5 +11,7 @@ Dockerfile
 .gitignore
 .git
 
-# node_modules
+# node dependencies
 node_modules
+yarn.lock
+package.json
