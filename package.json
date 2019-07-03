@@ -8,6 +8,6 @@
   "scripts": {
     "copy-bulma": "cp node_modules/bulma/css/bulma.min.css css/",
     "html-lint": "./node_modules/.bin/htmlhint **/*.html",
-	"http-server": "./node_modules/.bin/http-server"
+    "http-server": "./node_modules/.bin/http-server"
   }
 }
