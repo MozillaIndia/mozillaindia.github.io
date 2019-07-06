@@ -4,8 +4,10 @@ const ghpages = require('gh-pages')
 ghpages.publish(
   'public',
   {
-    branch: 'gh-pages',
-    repo: 'git@github.com:harshil1712/Mozilla-India-Gatsby.git',
+    // Branch to deploy on
+    branch: '',
+    // Link to GitHub Repo
+    repo: '',
   },
   () => {
     console.log('Deploy Complete!')
