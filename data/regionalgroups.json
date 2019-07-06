@@ -1,0 +1,102 @@
+[
+    {
+        "name":"Mozilla Delhi",
+        "website":null,
+        "telegram":"https://t.me/mozilladelhi",
+        "twitter":"https://twitter.com/mozilladelhincr",
+        "GitHub":null,
+        "instagram":null,
+        "meetup":null,
+        "facebook":null
+    },
+    {
+        "name":"Mozilla Gujarat",
+        "website":"http://mozillagujarat.org",
+        "telegram":"https://t.me/joinchat/CpXrs0J9FOfBVAB4TTEzAw",
+        "twitter":"https://twitter.com/mozguj",
+        "GitHub":"https://github.com/mozguj",
+        "instagram":"https://www.instagram.com/mozguj/",
+        "meetup":null,
+        "facebook":null
+    },
+    {
+        "name":"Mozilla Hyderabad",
+        "website":null,
+        "telegram":"https://t.me/MozHyderabad",
+        "twitter":null,
+        "GitHub":null,
+        "instagram":null,
+        "meetup":null,
+        "facebook":null
+    },
+    {
+        "name":"Mozilla Karnataka (BLR)",
+        "website":null,
+        "telegram":"https://t.me/joinchat/AFfAPD1xS9_WEiXjDfkYGA",
+        "twitter":"https://twitter.com/MozKarnataka",
+        "GitHub":null,
+        "instagram":null,
+        "meetup":"https://www.meetup.com/mozilla_bangalore/",
+        "facebook":null
+    },
+    {
+        "name":"Mozilla Kerala",
+        "website":"https://mozillakerala.com/",
+        "telegram":"https://t.me/mozilla_kerala",
+        "twitter":"https://twitter.com/MozillaKerala",
+        "GitHub":"https://github.com/MozillaKerala",
+        "instagram":"https://www.instagram.com/mozillakerala/",
+        "meetup":null,
+        "facebook":null
+    },
+    {
+        "name":"Mozilla Nashik",
+        "website":null,
+        "telegram":"https://t.me/MozillaNashik",
+        "twitter":"https://twitter.com/mozillanashik",
+        "GitHub":null,
+        "instagram":"https://www.instagram.com/mozillanashik/",
+        "meetup":null,
+        "facebook":null
+    },
+    {
+        "name":"Mozilla Pune",
+        "website":null,
+        "telegram":"https://t.me/joinchat/AAAAAD7Sg38JxPvt489eoA",
+        "twitter":"https://twitter.com/mozpune",
+        "GitHub":null,
+        "instagram":null,
+        "meetup":"https://www.meetup.com/Pune-Mozilla-Meetup/",
+        "facebook":"https://www.facebook.com/mozPune/"
+    },
+    {
+        "name":"Mozilla Punjab",
+        "website":"https://www.meetup.com/MozillaPunjab/",
+        "telegram":"https://t.me/mozillapunjab",
+        "twitter":"https://twitter.com/MozPunjab",
+        "GitHub":"https://github.com/MozillaPunjab",
+        "instagram":null,
+        "meetup":null,
+        "facebook":"https://www.facebook.com/MozillaPunjab"
+    },
+    {
+        "name":"Mozilla Rajasthan",
+        "website":null,
+        "telegram":"https://t.me/mozillarajasthan",
+        "twitter":null,
+        "GitHub":null,
+        "instagram":null,
+        "meetup":null,
+        "facebook":null
+    },
+    {
+        "name":"Mozilla Tamil Nadu",
+        "website":null,
+        "telegram":"https://t.me/mozillatnc",
+        "twitter":"https://twitter.com/mozillaTN",
+        "GitHub":"https://github.com/MozillaTN",
+        "instagram":null,
+        "meetup":null,
+        "facebook":null
+    }
+]
