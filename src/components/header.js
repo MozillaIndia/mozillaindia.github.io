@@ -36,7 +36,7 @@ class Header extends React.Component {
       <header>
         <nav className="navbar" role="navigation" aria-label="main navigation">
           <div className="navbar-brand">
-            <Link to="/">
+            <Link to="/" className="navbar-item">
               <img src={logo} width="112" height="32" alt="mozilla logo" />
               <span id="mozilla-india-wordmark"> india &nbsp;</span>
             </Link>
