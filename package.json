@@ -55,10 +55,11 @@
   "scripts": {
     "build": "cleandir ./.cache && gatsby build",
     "develop": "cleandir ./.cache && gatsby develop",
-    "start": "npm run develop",
+    "start": "yarn run develop",
     "lint": "eslint ./src",
     "setup": "node ./bin/setup.js",
-    "deploy:github": "npm run build && node ./scripts/deploy-github"
+    "deploy:github": "node ./scripts/deploy-github",
+    "deploy": "yarn run build && yarn run deploy:github"
   },
   "repository": {
     "type": "git",
