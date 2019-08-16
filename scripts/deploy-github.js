@@ -5,9 +5,7 @@ ghpages.publish(
   'public',
   {
     // Branch to deploy on
-    branch: '',
-    // Link to GitHub Repo
-    repo: '',
+    branch: 'master',
   },
   () => {
     console.log('Deploy Complete!')
