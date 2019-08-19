@@ -27,11 +27,6 @@ npm i -g gatsby-cli
 4. In the project repository install all the packages using `yarn install`
 5. Run `gatsby develop` to run the server. By default the server runs at `localhost:8000`
 
-### Use with docker (optional)
-
-Run the below command in the git repository to serve the website at localhost
-
-`docker-compose up`
 
 ### Git workflow
 
