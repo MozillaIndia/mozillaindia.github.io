@@ -1,6 +1,6 @@
 body {
-  background:#f5f1e8 url("/img/bg-gradient-sand.png") repeat-x;
-  background:url("../images/bg-gradient-sand.png") repeat-x,url("/img/bg-sand.png") repeat,#f5f1e8;
+  background: #f5f1e8 url('/img/bg-gradient-sand.png') repeat-x;
+  background: url('../images/bg-gradient-sand.png') repeat-x, #f5f1e8;
   font-family: 'Fira Sans', 'Open Sans', sans-serif !important;
 }
 
@@ -19,7 +19,7 @@ body {
 }
 
 .iconed-list .icon img {
-  max-height:16px;
+  max-height: 16px;
 }
 
 .iconed-list .icon img#blog-image {
