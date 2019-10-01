@@ -1,0 +1,19 @@
+.group-logo {
+  width: 80px;
+  height: 80px;
+  background-size: contain;
+  border-radius: 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+  border: 2px solid black;
+  margin-top: 5px;
+}
+
+.group-box {
+  display: flex;
+  min-height: 140px;
+}
+
+.group-details {
+  padding-left: 15px;
+}
