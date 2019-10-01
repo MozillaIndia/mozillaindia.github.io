@@ -1,5 +1,6 @@
 .group-logo {
-  width: 80px;
+  /* Not the most graceful way to do things */
+  width: 80px !important;
   height: 80px;
   background-size: contain;
   border-radius: 50%;
@@ -11,6 +12,7 @@
 
 .group-box {
   display: flex;
+  flex: 3;
   min-height: 140px;
 }
 
