@@ -17,7 +17,7 @@ const Groups = ({ name, data, description }) =>(
                 {node.website?<a href={node.website}>Website </a> :null}
                 {node.telegram?<a href={node.telegram}>Telegram </a> :null}
                 {node.twitter?<a href={node.twitter}>Twitter </a> :null}
-                {node.GitHub?<a href={node.GitHub}>GitHub </a> :null}
+                {node.github?<a href={node.github}>GitHub </a> :null}
                 {node.instagram?<a href={node.instagram}>Instagram </a> :null}
                 {node.facebook?<a href={node.facebook}>Facebook </a> :null}
                 {node.meetup?<a href={node.meetup}>Meetup </a> :null}

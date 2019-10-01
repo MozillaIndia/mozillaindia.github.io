@@ -270,7 +270,7 @@ export const query = graphql`
           telegram
           instagram
           facebook
-          GitHub
+          github
         }
       }
     }
@@ -279,7 +279,7 @@ export const query = graphql`
         node {
           name
           telegram
-          GitHub
+          github
         }
       }
     }
