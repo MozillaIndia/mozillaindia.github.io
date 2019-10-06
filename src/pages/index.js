@@ -269,6 +269,7 @@ export const query = graphql`
           twitter
           telegram
           instagram
+          meetup
           facebook
           github
         }
