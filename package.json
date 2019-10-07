@@ -6,7 +6,7 @@
   "author": "Kyle Mathews <mathews.kyle@gmail.com>",
   "dependencies": {
     "bulma": "^0.7.5",
-    "clean-dir": "^1.0.3",
+    "del-cli": "^3.0.0",
     "gatsby": "^2.13.2",
     "gatsby-image": "^2.2.4",
     "gatsby-plugin-manifest": "^2.2.1",
@@ -53,8 +53,8 @@
   ],
   "license": "MIT",
   "scripts": {
-    "build": "cleandir ./.cache && gatsby build",
-    "develop": "cleandir ./.cache && gatsby develop",
+    "build": "del-cli ./.cache && gatsby build",
+    "develop": "del-cli ./.cache && gatsby develop",
     "start": "yarn run develop",
     "lint": "eslint ./src",
     "setup": "node ./bin/setup.js",
