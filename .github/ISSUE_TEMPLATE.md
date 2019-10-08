@@ -1,19 +1,35 @@
-## Bug/Feature/Enhancement
-<!--Mention if the issue is a bug, a new feature or some enhancment to an existing feature.-->
 
 
-<!--If the issue is not a bug, you can remove the actual/expected behaviour titles.-->
-**Actual Behaviour**
-<!--Please state here what is currently happening.-->
+This is a:
+
+- [ ] Bug Report
+- [ ] Feature Request
+- [ ] General Query 
+- [ ] This issue brokes the site page
+
+# Bug Report
+
+#### Current Behavior:
+
+(current behavior here)
+
+#### Expected Behavior:
+
+(expected behavior here)
+
+# Feature Request
+
+(feature request here)
 
 
-**Expected Behaviour**
-<!--State here how the feature should function.-->
 
 
-**Screenshots of the issue**
-<!--It is a good idea to provide screenshots of the issue if possible.-->
+# General Query
+
+- [ ] I can take care of the issue/query (expect PR about the issue)
+
+- [ ] I can't take care about the issue/query.
 
 
-**Would you like to work on the issue?**
-<!--Let us know if this issue should be assigned to you.-->
+
+(general query here)
