@@ -19,6 +19,7 @@ import RiotLogo from '../images/icon-riot.svg'
 
 const MediaLink = styled.a`
   vertical-align: top;
+  padding: 4%;
 `
 
 const Channels = styled.span`
@@ -126,39 +127,28 @@ const IndexPage = ({ data }) => (
               <p className="title">Social Media</p>
               <ul className="iconed-list">
                 <li>
-                  <span className="icon">
-                    <FaTwitterSquare size="24px" color="#1da1f2" />
-                  </span>
                   <MediaLink href="https://twitter.com/MozillaIN">
-                    {' '}
-                    @MozillaIN
+                    <span className="icon">
+                      <FaTwitterSquare size="24px" color="#1da1f2" />
+                    </span>
                   </MediaLink>
-                </li>
-                <li>
-                  <span className="icon">
-                    <FaFacebookSquare size="24px" color="#1da1f2" />
-                  </span>
+
                   <MediaLink href="https://facebook.com/mozillaindia">
-                    {' '}
-                    mozillaindia
+                    <span className="icon">
+                      <FaFacebookSquare size="24px" color="#1da1f2" />
+                    </span>
                   </MediaLink>
-                </li>
-                <li>
-                  <span className="icon">
-                    <FaBlog size="24px" color="rgb(242, 119, 29)" />
-                  </span>
+
                   <MediaLink href="https://blog.mozillaindia.org">
-                    {' '}
-                    blog
+                    <span className="icon">
+                      <FaBlog size="24px" color="rgb(242, 119, 29)" />
+                    </span>
                   </MediaLink>
-                </li>
-                <li>
-                  <span className="icon">
-                    <FaInstagram size="24px" />
-                  </span>
+
                   <MediaLink href="https://www.instagram.com/mozillain/">
-                    {' '}
-                    mozillaindia
+                    <span className="icon">
+                      <FaInstagram size="24px" />
+                    </span>
                   </MediaLink>
                 </li>
               </ul>
