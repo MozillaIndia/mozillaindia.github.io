@@ -2,8 +2,10 @@
     "name": "Mozilla Campus Club BVUCOE, Pune",
     "connectus": [
       {
-        "name": "Facebook",
-        "link": "https://www.facebook.com/mozilacampusclubbvucoep/"
+        "Website":""
+        "Facebook": "https://www.facebook.com/mozilacampusclubbvucoep/"
+        "Instagram": ""
+        "twitter":""
       }
     ]
   },
@@ -11,8 +13,10 @@
     "name": "FOSSers VAST, Kerala",
     "connectus": [
       {
-        "name": "Website",
-        "link": "http://fossers.vidyaacademy.ac.in"
+        "Website": "http://fossers.vidyaacademy.ac.in"
+        "Facebook":""
+        "Instagram": ""
+        "twitter":""
       }
     ]
   },
@@ -20,8 +24,10 @@
     "name": "GLUG MVIT, Bangalore",
     "connectus": [
       {
-        "name": "Website",
-        "link": "https://blog.glugmvit.com/"
+        "Website": "https://blog.glugmvit.com/"
+        "Facebook":""
+        "Instagram": ""
+        "twitter":""
       }
     ]
   },
@@ -29,8 +35,10 @@
     "name": "Mozilla Campus Club MACE, Kerala",
     "connectus": [
       {
-        "name": "Instagram",
-        "link": "https://www.instagram.com/mozillamace/"
+        "Website":""
+        "Instagram": "https://www.instagram.com/mozillamace/"
+        "Facebook":""
+        "twitter":""
       }
     ]
   },
@@ -38,8 +46,10 @@
     "name": "Mozilla Campus Club NUV, Vadodara",
     "connectus": [
       {
-        "name": "Instagram",
-        "link": "https://www.instagram.com/cybersocietynuv/"
+        "Website":""
+        "Instagram": "https://www.instagram.com/cybersocietynuv/"
+        "Facebook":""
+        "twitter":""
       }
     ]
   },
@@ -47,12 +57,10 @@
     "name": "MozNeurons SVIT, Vasad",
     "connectus": [
       {
-        "name": "Instagram",
-        "link": "https://www.instagram.com/moz_neurons"
-      },
-      {
-        "name": "twitter",
-        "link": "https://twitter.com/mozneurons"
+        "Website":""
+        "Instagram": "https://www.instagram.com/moz_neurons"
+        "Facebook":""
+        "twitter": "https://twitter.com/mozneurons"
       }
     ]
   }
