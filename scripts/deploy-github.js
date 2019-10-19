@@ -7,7 +7,7 @@ ghpages.publish(
     // Branch to deploy on
     branch: 'master',
   },
-  () => {
+  {
     console.log('Deploy Complete!')
   }
 )
