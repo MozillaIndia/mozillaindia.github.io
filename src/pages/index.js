@@ -75,45 +75,43 @@ const IndexPage = ({ data }) => (
               <p className="title">Communication channels</p>
               <ul className="iconed-list">
                 <li>
-                  <span className="icon">
-                    <FaDiscourse size="24px" color="#000" />
-                  </span>
+                  
                   <Channels>
                     <a href="https://discourse.mozilla.org/c/india">
-                      {' '}
-                      Discourse
+                      <span className="icon">
+                        <FaDiscourse size="24px" color="#000" />
+                      </span>
                     </a>{' '}
                     - for important topics
                   </Channels>
                 </li>
                 <li>
-                  <span className="icon">
-                    <FaEnvelope size="20px" />
-                  </span>
+                  
                   <Channels>
                     <a href="https://lists.mozilla.org/listinfo/community-india">
-                      {' '}
-                      Mailing List
+                      <span className="icon">
+                        <FaEnvelope size="20px" />
+                        </span>
                     </a>{' '}
                     - for restricted visibility
                   </Channels>
                 </li>
                 <li>
-                  <span className="icon">
-                    <FaTelegramPlane size="24px" color="#0088cc" />
-                  </span>
+                  
                   <Channels>
-                    <a href="https://t.me/MozillaIN"> Telegram</a> - for instant
+                    <a href="https://t.me/MozillaIN"> <span className="icon">
+                    <FaTelegramPlane size="24px" color="#0088cc" />
+                  </span></a> - for instant
                     messaging
                   </Channels>
                 </li>
                 <li>
-                  <span className="icon">
-                    <img src={RiotLogo} alt="Matrix Icon" />
-                  </span>
+                  
                   <Channels>
                     <a href="https://matrix.to/#/!OkcrSgHxzzzLELqtai:matrix.org">
-                      Matrix
+                      <span className="icon">
+                        <img src={RiotLogo} alt="Matrix Icon" />
+                      </span>
                     </a>{' '}
                     - for instant messaging
                   </Channels>
@@ -126,39 +124,35 @@ const IndexPage = ({ data }) => (
               <p className="title">Social Media</p>
               <ul className="iconed-list">
                 <li>
-                  <span className="icon">
-                    <FaTwitterSquare size="24px" color="#1da1f2" />
-                  </span>
+                  
                   <MediaLink href="https://twitter.com/MozillaIN">
-                    {' '}
-                    @MozillaIN
+                    <span className="icon">
+                        <FaTwitterSquare size="24px" color="#1da1f2" />
+                     </span>
                   </MediaLink>
                 </li>
                 <li>
-                  <span className="icon">
-                    <FaFacebookSquare size="24px" color="#1da1f2" />
-                  </span>
+                  
                   <MediaLink href="https://facebook.com/mozillaindia">
-                    {' '}
-                    mozillaindia
+                    <span className="icon">
+                     <FaFacebookSquare size="24px" color="#1da1f2" />
+                    </span>
                   </MediaLink>
                 </li>
                 <li>
-                  <span className="icon">
+                  
+                  <MediaLink href="https://blog.mozillaindia.org">
+                   <span className="icon">
                     <FaBlog size="24px" color="rgb(242, 119, 29)" />
                   </span>
-                  <MediaLink href="https://blog.mozillaindia.org">
-                    {' '}
-                    blog
                   </MediaLink>
                 </li>
                 <li>
-                  <span className="icon">
+                  
+                  <MediaLink href="https://www.instagram.com/mozillain/">
+                    <span className="icon">
                     <FaInstagram size="24px" />
                   </span>
-                  <MediaLink href="https://www.instagram.com/mozillain/">
-                    {' '}
-                    mozillaindia
                   </MediaLink>
                 </li>
               </ul>
