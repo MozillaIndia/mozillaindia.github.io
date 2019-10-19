@@ -2,43 +2,26 @@
     {
         "Name":"Mozilla Campus Club BVUCOE, Pune",
         "Facebook":"https://www.facebook.com/mozilacampusclubbvucoep/",
-        "Instagram":"",
-        "Twitter":"",
-        "Website:""
     },
     {
         "Name":"FOSSers VAST, Kerala",
-        "Facebook":"",
-        "Instagram":"",
-        "Twitter":"",
         "Website":"http://fossers.vidyaacademy.ac.in"
     },
     {
         "Name":"GLUG MVIT, Bangalore",
-        "Facebook":"",
-        "Instagram":"",
-        "Twitter":"",
         "Website":"https://blog.glugmvit.com/"
     },
     {
         "Name":"Mozilla Campus Club MACE, Kerala",
-        "Facebook":"",
-        "Instagram":"https://www.instagram.com/mozillamace/",
-        "Twitter":"",
-        "Website":""       
+        "Instagram":"https://www.instagram.com/mozillamace/",     
     },
     {
         "Name":"Mozilla Campus Club NUV, Vadodara",
-        "Facebook":"",
         "Instagram":"https://www.instagram.com/cybersocietynuv/"
-        "Twitter":"",
-        "Wesite":""       
     },
     {
         "Name":"MozNeurons SVIT, Vasad",
-        "Facebook":"",
         "Instagram":"https://www.instagram.com/moz_neurons",
         "Twitter":"https://twitter.com/mozneurons",
-        "Website":"" 
     }
 ]
