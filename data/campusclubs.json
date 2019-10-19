@@ -21,7 +21,9 @@
     },
     {
         "name":"MozNeurons SVIT, Vasad",
-        "instagram":"https://www.instagram.com/moz_neurons",
-        "twitter":"https://twitter.com/mozneurons"
+        [
+            {  "instagram":"https://www.instagram.com/moz_neurons"},
+            {  "twitter":"https://twitter.com/mozneurons"}
+        ]
     }
 ]
