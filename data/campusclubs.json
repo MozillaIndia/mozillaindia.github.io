@@ -1,15 +1,3 @@
-/*
-    {
-        "Name":"",
-        "Facebook":""
-        "Instagram":"",
-        "Twitter":"",
-        "Website:""
-    },
-
-    Use above formatted data structure to add content here.
-*/
-
 [
     {
         "Name":"Mozilla Campus Club BVUCOE, Pune",
@@ -21,7 +9,7 @@
     {
         "Name":"FOSSers VAST, Kerala",
         "Facebook":"",
-        "instagram":"",
+        "Instagram":"",
         "Twitter":"",
         "Website":"http://fossers.vidyaacademy.ac.in"
     },
