@@ -18,6 +18,11 @@ body {
   color: white;
 }
 
+a:visited {
+  color: purple;
+  text-decoration: underline;
+}
+
 .iconed-list .icon img {
   max-height: 16px;
 }
