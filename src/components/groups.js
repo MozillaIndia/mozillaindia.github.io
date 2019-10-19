@@ -8,6 +8,7 @@ import {
   FaGlobe,
   FaMeetup,
 } from 'react-icons/fa'
+#added for icons
 const Groups = ({ name, data, description }) =>(
     <div className="tile is-ancestor is-vertical">
                     <div className="tile is-parent">
