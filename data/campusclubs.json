@@ -1,7 +1,7 @@
 [
     {
         "Name":"Mozilla Campus Club BVUCOE, Pune",
-        "Facebook":"https://www.facebook.com/mozilacampusclubbvucoep/",
+        "Facebook":"https://www.facebook.com/mozilacampusclubbvucoep/"
     },
     {
         "Name":"FOSSers VAST, Kerala",
@@ -13,7 +13,7 @@
     },
     {
         "Name":"Mozilla Campus Club MACE, Kerala",
-        "Instagram":"https://www.instagram.com/mozillamace/",     
+        "Instagram":"https://www.instagram.com/mozillamace/"    
     },
     {
         "Name":"Mozilla Campus Club NUV, Vadodara",
@@ -22,6 +22,6 @@
     {
         "Name":"MozNeurons SVIT, Vasad",
         "Instagram":"https://www.instagram.com/moz_neurons",
-        "Twitter":"https://twitter.com/mozneurons",
+        "Twitter":"https://twitter.com/mozneurons"
     }
 ]
