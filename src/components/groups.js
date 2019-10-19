@@ -1,5 +1,13 @@
 import React from 'react'
-
+import {
+  FaTwitterSquare,
+  FaFacebookSquare,
+  FaInstagram,
+  FaTelegramPlane,
+  FaGitSquare,
+  FaGlobe,
+  FaMeetup,
+} from 'react-icons/fa'
 const Groups = ({ name, data, description }) =>(
     <div className="tile is-ancestor is-vertical">
                     <div className="tile is-parent">
@@ -14,13 +22,13 @@ const Groups = ({ name, data, description }) =>(
         <div className="column is-4" key={node.id}>
             <div className="tile is-child box">
                 <p className="subtitle">{node.name}</p>
-                {node.website?<a href={node.website}>Website </a> :null}
-                {node.telegram?<a href={node.telegram}>Telegram </a> :null}
-                {node.twitter?<a href={node.twitter}>Twitter </a> :null}
-                {node.github?<a href={node.github}>GitHub </a> :null}
-                {node.instagram?<a href={node.instagram}>Instagram </a> :null}
-                {node.facebook?<a href={node.facebook}>Facebook </a> :null}
-                {node.meetup?<a href={node.meetup}>Meetup </a> :null}
+                {node.website?<a href={node.website}><FaGlobe size="20px" color="#dc4e41" /></a> :null}
+                {node.telegram?<a href={node.telegram}><FaTelegramPlane size="20px" color="#00405d" /> </a> :null}
+                {node.twitter?<a href={node.twitter}><FaTwitterSquare size="20px" color="#55acee" /> </a> :null}
+                {node.github?<a href={node.github}><FaGitSquare size="20px" color="#00405d" /> </a> :null}
+                {node.instagram?<a href={node.instagram}><FaInstagram size="20px" color="#1da1f2" /> </a> :null}
+                {node.facebook?<a href={node.facebook}><FaFacebookSquare size="20px" color="#3b5998" /></a> :null}
+                {node.meetup?<a href={node.meetup}><FaMeetup size="20px" color="#ef4056" /></a> :null}
             </div>
         </div>
     ))}
