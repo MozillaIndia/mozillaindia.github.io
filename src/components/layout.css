@@ -8,6 +8,11 @@ body {
   font-family: 'Zilla Slab', Courier, serif;
 }
 
+a:visited {
+  color: purple;
+  text-decoration: underline;
+}
+
 #mozilla-india-wordmark {
   font-family: 'Zilla Slab Highlight', Courier, serif;
   font-size: 1.16rem;
