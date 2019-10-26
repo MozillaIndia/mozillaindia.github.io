@@ -4,6 +4,7 @@ import { graphql } from 'gatsby'
 import Layout from '../components/layout'
 import SEO from '../components/seo'
 import Groups from '../components/groups'
+import LinkedGroups from '../components/linkedGroups'
 import {
   FaTwitterSquare,
   FaFacebookSquare,
@@ -244,7 +245,7 @@ const IndexPage = ({ data }) => (
         {/* Functional Groups */}
         <Groups data={data.functionalGroups} name="Functional Groups" />
         {/* Campus Clubs */}
-        <Groups
+        <LinkedGroups
           data={data.campusClubs}
           name="Campus Clubs"
           description={[
