@@ -288,10 +288,10 @@ export const query = graphql`
       edges {
         node {
           name
-          website
-          facebook
-          instagram
-          twitter
+          links {
+            type
+            link
+          }
         }
       }
     }

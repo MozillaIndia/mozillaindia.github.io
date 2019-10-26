@@ -1,44 +1,60 @@
 [
   {
     "name": "Mozilla Campus Club BVUCOE, Pune",
-    "website": "",
-    "facebook": "https://www.facebook.com/mozilacampusclubbvucoep/",
-    "instagram": "",
-    "twitter": ""
+    "links": [
+      {
+        "type": "facebook",
+        "link": "https://www.facebook.com/mozilacampusclubbvucoep/"
+      }
+    ]
   },
   {
     "name": "FOSSers VAST, Kerala",
-    "website": "http://fossers.vidyaacademy.ac.in",
-    "facebook": "",
-    "instagram": "",
-    "twitter": ""
+    "links": [
+      {
+        "type": "website",
+        "link": "http://fossers.vidyaacademy.ac.in"
+      }
+    ]
   },
   {
     "name": "GLUG MVIT, Bangalore",
-    "website": "https://blog.glugmvit.com/",
-    "facebook": "",
-    "instagram": "",
-    "twitter": ""
+    "links": [
+      {
+        "type": "website",
+        "link": "https://blog.glugmvit.com/"
+      }
+    ]
   },
   {
     "name": "Mozilla Campus Club MACE, Kerala",
-    "website": "",
-    "facebook": "",
-    "instagram": "https://www.instagram.com/mozillamace/",
-    "twitter": ""
+    "links": [
+      {
+        "type": "instagram",
+        "link": "https://www.instagram.com/mozillamace/"
+      }
+    ]
   },
   {
     "name": "Mozilla Campus Club NUV, Vadodara",
-    "website": "",
-    "facebook": "",
-    "instagram": "https://www.instagram.com/cybersocietynuv/",
-    "twitter": ""
+    "links": [
+      {
+        "type": "instagram",
+        "link": "https://www.instagram.com/cybersocietynuv/"
+      }
+    ]
   },
   {
     "name": "MozNeurons SVIT, Vasad",
-    "website": "",
-    "facebook": "",
-    "instagram": "https://www.instagram.com/moz_neurons",
-    "twitter": "https://twitter.com/mozneurons"
+    "links": [
+      {
+        "type": "instagram",
+        "link": "https://www.instagram.com/moz_neurons"
+      },
+      {
+        "type": "twitter",
+        "link": "https://twitter.com/mozneurons"
+      }
+    ]
   }
 ]
