@@ -3,13 +3,13 @@ import {
   FaTwitterSquare,
   FaFacebookSquare,
   FaInstagram,
-  FaTelegramPlane,
-  FaGitSquare,
-  FaGlobe,
   FaMeetup,
+  FaTelegramPlane,
+  FaGithub,
+  FaChrome,
 } from 'react-icons/fa'
 
-const Groups = ({ name, data, description }) => (
+const Groups = ({ name, data, description, icon }) => (
   <div className="tile is-ancestor is-vertical">
     <div className="tile is-parent">
       <div className="tile is-child box">
@@ -25,37 +25,51 @@ const Groups = ({ name, data, description }) => (
                   <p className="subtitle">{node.name}</p>
                   {node.website ? (
                     <a href={node.website}>
-                      <FaGlobe size="24px" color="#1da1f2" />
+                      <span className="icon-tile">
+                        <FaChrome size="25" color="#000" />
+                      </span>
                     </a>
                   ) : null}
                   {node.telegram ? (
                     <a href={node.telegram}>
-                      <FaTelegramPlane size="24px" color="#1da1f2" />{' '}
+                      <span className="icon-tile">
+                        <FaTelegramPlane size="25" color="#0088cc" />
+                      </span>
                     </a>
                   ) : null}
                   {node.twitter ? (
                     <a href={node.twitter}>
-                      <FaTwitterSquare size="24px" color="#1da1f2" />{' '}
+                      <span className="icon-tile">
+                        <FaTwitterSquare size="25" color="#1da1f2" />
+                      </span>
                     </a>
                   ) : null}
                   {node.github ? (
                     <a href={node.github}>
-                      <FaGitSquare size="24px" color="#ad5c51" />
+                      <span className="icon-tile">
+                        <FaGithub size="25" color="#000" />
+                      </span>
                     </a>
                   ) : null}
                   {node.instagram ? (
                     <a href={node.instagram}>
-                      <FaInstagram size="24px" color="#3f729b" />{' '}
+                      <span className="icon-tile">
+                        <FaInstagram size="25" color="#000" />
+                      </span>
                     </a>
                   ) : null}
                   {node.facebook ? (
                     <a href={node.facebook}>
-                      <FaFacebookSquare size="24px" color="#1da1f2" />
+                      <span className="icon-tile">
+                        <FaFacebookSquare size="25" color="#1da1f2" />
+                      </span>
                     </a>
                   ) : null}
                   {node.meetup ? (
                     <a href={node.meetup}>
-                      <FaMeetup size="24px" color="#1da1f2" />
+                      <span className="icon-tile">
+                        <FaMeetup size="25" color="#1da1f2" />
+                      </span>
                     </a>
                   ) : null}
                 </div>
