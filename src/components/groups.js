@@ -6,7 +6,7 @@ import {
   FaDiscourse,
   FaTelegramPlane,
   FaGithub,
-  FaChrome,
+  FaGlobe,
 } from 'react-icons/fa'
 
 const Groups = ({ name, data, description, icon }) => (
@@ -26,7 +26,7 @@ const Groups = ({ name, data, description, icon }) => (
                   {node.website ? (
                     <a href={node.website}>
                       <span className="icon-tile">
-                        <FaChrome size="25" color="#000" />
+                        <FaGlobe size="25" color="#0088cc" />
                       </span>
                     </a>
                   ) : null}
