@@ -1,17 +1,33 @@
 [
-    {
-        "name":"Hindi Localization Group",
-        "github":null,
-        "telegram":"https://t.me/joinchat/CEMWVhH5ueW0zSAqfma6lA"
-    },
-    {
-        "name":"Malayalam Localization Group",
-        "github":null,
-        "telegram":"https://t.me/firefoxsmc"
-    },
-    {
-        "name":"Mozilla Open Design",
-        "github":"https://github.com/mozilla/OpenDesign/",
-        "telegram":"https://t.me/opendesign"
-    }
+  {
+    "name": "Hindi Localization Group",
+    "links": [
+      {
+        "type": "telegram",
+        "link": "https://t.me/joinchat/CEMWVhH5ueW0zSAqfma6lA"
+      }
+    ]
+  },
+  {
+    "name": "Malayalam Localization Group",
+    "links": [
+      {
+        "type": "telegram",
+        "link": "https://t.me/firefoxsmc"
+      }
+    ]
+  },
+  {
+    "name": "Mozilla Open Design",
+    "links": [
+      {
+        "type": "github",
+        "link": "https://github.com/mozilla/OpenDesign/"
+      },
+      {
+        "type": "telegram",
+        "link": "https://t.me/opendesign"
+      }
+    ]
+  }
 ]
