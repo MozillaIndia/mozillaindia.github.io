@@ -2,7 +2,7 @@ module.exports = {
   siteMetadata: {
     title: `Mozilla India Website`,
     description: `Mozilla India is community driven my Mozillian Volunteers`,
-    author: `@harshil1712`,
+    author: `@mozillaIN`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -19,8 +19,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `gatsby-starter-default`,
-        short_name: `starter`,
+        name: `mozilla-india`,
+        short_name: `mozillaIN`,
         start_url: `/`,
         background_color: `#663399`,
         theme_color: `#663399`,
