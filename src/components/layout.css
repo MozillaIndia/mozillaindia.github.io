@@ -4,6 +4,16 @@ body {
   font-family: 'Fira Sans', 'Open Sans', sans-serif !important;
 }
 
+.box {
+  background-color: white;
+  border-radius: 6px;
+  box-shadow: 0 2px 3px rgba(10, 10, 10, 0.1), 0 0 0 1px rgba(10, 10, 10, 0.1);
+  color: #4a4a4a;
+  display: block;
+  padding: 1.25rem;
+  margin-bottom: 1.5rem;
+}
+
 .title {
   font-family: 'Zilla Slab', Courier, serif;
 }
@@ -36,4 +46,26 @@ a:visited {
 }
 .icon-tile {
   margin-right: 6px;
+}
+
+@media (min-width: 640px) {
+  .metalinks {
+    display: flex;
+  }
+
+  .metalinks .box {
+    width: 40%;
+    margin: 0 5% 1.5rem 5%;
+  }
+}
+
+.groupsgroup {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.group {
+  width: 15rem;
+  margin: 0 2.5% 1.5rem 2.5%;
 }
