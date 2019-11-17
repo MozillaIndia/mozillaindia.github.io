@@ -1,5 +1,22 @@
 [
   {
+    "name": "Mozilla Phoenix Club",
+    "links": [
+      {
+        "type": "facebook",
+        "link": "https://www.facebook.com/JuetFirefoxClub/"
+      },
+      {
+        "type": "github",
+        "link": "https://github.com/MozPhoenixClubJUET"
+      },
+      {
+        "type": "instagram",
+        "link": "https://www.instagram.com/mpcjuet/"
+      }
+    ]
+  },
+  {
     "name": "Mozilla Campus Club BVUCOE, Pune",
     "links": [
       {
