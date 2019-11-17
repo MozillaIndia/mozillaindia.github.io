@@ -1,4 +1,17 @@
 [
+   {
+    "name": "Mozilla Guna",
+    "links": [
+      {
+        "type": "website",
+        "link": "https://mozguna.github.io/"
+      },
+      {
+        "type": "github",
+        "link": "https://github.com/MozGuna"
+      }
+    ]
+  },
   {
     "name": "Mozilla Delhi",
     "links": [
