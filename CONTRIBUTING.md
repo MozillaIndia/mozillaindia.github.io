@@ -101,7 +101,7 @@ $ git rebase master
 
 ## Adding Communities
 
-To add community make sure you have the correct name, and social media details such as Telegram Group Link, Facebook, Instagram, Twitter, GitHub and the communities. (It is not necessary to have be present on every platform. It would be easy for the users to get easily directed to the community if the links are provided.)
+To add community make sure you have the correct name, and social media details such as Telegram Group Link, Facebook, Instagram, Twitter, GitHub and the communities. (It is not necessary to be present on every platform. It would be easy for the users to get easily directed to the community if the links are provided.)
 
 ### Regional Groups
 
