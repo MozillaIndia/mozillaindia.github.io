@@ -73,5 +73,26 @@
         "link": "https://twitter.com/mozneurons"
       }
     ]
+  },
+  {
+    "name": "vMozilla, Vellore",
+    "links": [
+      {
+        "type": "facebook",
+        "link": "https://www.facebook.com/mfcvit"
+      },
+      {
+        "type": "twitter",
+        "link": "https://twitter.com/vMozilla"
+      },
+      {
+        "type": "github",
+        "link": "https://github.com/vMozilla"
+      },
+      {
+        "type": "telegram",
+        "link": "https://t.me/vMozilla"
+      }
+    ]
   }
 ]
