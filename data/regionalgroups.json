@@ -1,5 +1,5 @@
 [
-   {
+  {
     "name": "Mozilla Guna",
     "links": [
       {
@@ -161,6 +161,19 @@
       {
         "type": "facebook",
         "link": "https://www.facebook.com/MozillaPunjab"
+      }
+    ]
+  },
+  {
+    "name": "Mozilla Odisha",
+    "links": [
+      {
+        "type": "twitter",
+        "link": "https://www.twitter.com/mozillaOdisha"
+      },
+      {
+        "type": "facebook",
+        "link": "https://www.facebook.com/groups/302050253767416/"
       }
     ]
   },
