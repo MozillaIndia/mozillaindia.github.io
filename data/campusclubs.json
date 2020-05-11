@@ -53,6 +53,48 @@
     ]
   },
   {
+    "name": "Mozilla CUSAT, Kerala",
+    "links": [
+      {
+        "type": "facebook",
+        "link": "https://www.facebook.com/MozillaCUSAT"
+      },
+      {
+        "type": "github",
+        "link": "https://github.com/Mozilla-cusat"
+      },
+      {
+        "type": "twitter",
+        "link": "https://twitter.com/MozillaCusat"
+      },
+      {
+        "type": "website",
+        "link": "https://mozilla-cusat.github.io/"
+      }
+    ]
+  },
+  {
+    "name": "MEC Developer Community, Kerala",
+    "links": [
+      {
+        "type": "telegram",
+        "link": "https://t.me/mecdev"
+      },
+      {
+        "type": "github",
+        "link": "https://github.com/mec-dev"
+      },
+      {
+        "type": "twitter",
+        "link": "https://github.com/mec-dev"
+      },
+      {
+        "type": "website",
+        "link": "https://mec.dev/"
+      }
+    ]
+  },
+  {
     "name": "Mozilla Campus Club NUV, Vadodara",
     "links": [
       {
