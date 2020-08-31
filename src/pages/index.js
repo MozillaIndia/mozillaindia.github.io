@@ -240,6 +240,7 @@ const IndexPage = ({ data }) => (
             <a href="https://campus.mozilla.community/">
               Mozilla Campus Club Website
             </a>,
+            <div style={{ marginBottom: 30 }}></div>,
           ]}
         />
       </div>
