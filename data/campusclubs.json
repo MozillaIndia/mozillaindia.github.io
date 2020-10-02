@@ -94,5 +94,14 @@
         "link": "https://t.me/vMozilla"
       }
     ]
+  },
+  {
+    "name": "SKNCOE Mozilla Club",
+    "links": [
+      {
+        "type": "website",
+        "link": "https://community.mozilla.org/en/groups/skncoe-mozilla-club/"
+      }
+    ]
   }
 ]
